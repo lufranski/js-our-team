@@ -45,9 +45,30 @@ const teamMembers = [
 console.log(teamMembers);
 // 2. Stampare su console le info per ogni membro del team
 
+const wrapper = document.getElementById('container');
+
 for (let i = 0; i < teamMembers.length; i++){
+    
     console.log(`Membro #${i}: ${teamMembers[i].name} ${teamMembers[i].role} ${teamMembers[i].image} `);
+
+    // 3. Stampare sul DOM le info per ogni membro del team
+    
+    wrapper.innerHTML += `<div>${teamMembers[i].name} ${teamMembers[i].role} ${teamMembers[i].image}</div>`;
+    
 }
 
 
-// 3. Stampare su DOM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
