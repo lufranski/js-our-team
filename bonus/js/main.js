@@ -63,7 +63,9 @@ for (let i = 0; i < teamMembers.length; i++){
 
 
 
-
+function objectItemCreator(property, value){
+    objectProperty : value
+}
 
 
 
