@@ -53,7 +53,7 @@ for (let i = 0; i < teamMembers.length; i++){
 
     // 3. Stampare sul DOM le info per ogni membro del team
     
-    wrapper.innerHTML += `<div>${teamMembers[i].name} ${teamMembers[i].role} <img src="img/${teamMembers[i].image}"</div>`;
+    wrapper.innerHTML += `<div class="card"> <img src="img/${teamMembers[i].image}"> <h3>${teamMembers[i].name}</h3> <h4><i>${teamMembers[i].role}</i></h4> </div>`;
     
 }
 
